@@ -29,9 +29,15 @@ nav{
  nav ul li{
     outline: purple dashed;
     display: inline-block;
+    position: relative;
+    left: 200%;
     list-style: none;
     margin: 10px 20px;   
 }
+ul li{
+    justi;
+}
+
 nav ul li a{
     color: black;
     text-decoration: none;
