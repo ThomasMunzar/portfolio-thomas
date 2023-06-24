@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif ;
+    padding: 40px;
+    text-align: left;
+    background: #13293d;
+    color: aliceblue;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+nav a{
+    color: aquamarine;
+    padding: 14px, 20px;
+    text-align: right;
+}
