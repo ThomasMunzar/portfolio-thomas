@@ -8,7 +8,7 @@ body{
 }
 
 
-header h1 {
+header .name {
     outline: red dashed;
     font-family: Arial, Helvetica, sans-serif ;
     padding: 30px;
@@ -71,7 +71,7 @@ nav ul li a:hover::after{
     color: aliceblue;
 }
 /********************About Me Section*******************/
-#about-me h1{
+#about-me .about-me{
     padding-top: 20px;
     padding-bottom: 1%;
     padding-left: 15px;
@@ -92,3 +92,26 @@ nav ul li a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+/************************* My Work******************/
+
+.my-work {
+    border: dodgerblue dashed;
+    font-size: 26px;
+    padding: 20px;
+    background-color: #13293d;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  .Horizeon,
+  .sample-2,
+  .sample-3,
+  .sample-4,
+  .sample-5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+
+
