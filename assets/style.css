@@ -1,9 +1,4 @@
-< !--:root {
-    --backgroud:
-        --font:
-}
-
--->* {
+*{
     box-sizing: border-box;
 }
 
@@ -15,7 +10,7 @@ body {
 
 
 header .name {
-    outline: rgb(159, 242, 6) dashed;
+   /* outline: rgb(159, 242, 6) dashed;*/
     font-family: Helvetica;
     padding: 80px;
     text-align: left;
@@ -25,7 +20,7 @@ header .name {
 }
 
 nav {
-    outline: rgb(0, 7, 0) dashed;
+   /* outline: rgb(0, 7, 0) dashed;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,7 +32,7 @@ nav {
 
 /*Was finally able to move the nav bar to the right side of the page but i am not sure if this is the "correct" way to go about it.*/
 nav ul li {
-    outline: purple dashed;
+    /*outline: purple dashed;*/
     display: inline-block;
     position: relative;
     left: 200%;
@@ -49,7 +44,7 @@ nav ul li {
 
 
 nav ul li a {
-    color: black;
+   /*color: black;*/
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -81,13 +76,12 @@ nav ul li a:hover::after {
     padding: 10px;
     font-family: helvetica;
     background-color: white;
-    outline: rgb(16, 15, 15) dashed;
+    /*outline: rgb(16, 15, 15) dashed;*/
     color: black;
 }
 .about{
     display: flex;
 justify-content: center;
-margin-top: 
 }
 .picture {
     display: flex;
@@ -98,7 +92,7 @@ margin-top:
 }
 
 p {
-    border: #f01285 dashed;
+   /* border: #f01285 dashed;*/
     padding-bottom: 40px;
     padding-left: 200px;
     display: flex;
@@ -109,8 +103,8 @@ p {
 /************************* My Work******************/
 
 h2 {
-    border: rgb(146, 16, 7) dashed;
-    font-size: 26px;
+    /*border: rgb(146, 16, 7) dashed;*/
+    font-size: 50px;
     padding: 20px;
     background-color: white;
     color: black;
@@ -118,8 +112,7 @@ h2 {
     width: 200px;
     display: flex;
     justify-content: center;
-
-}
+    }
 
 section {
     display: flex;
@@ -130,6 +123,7 @@ section {
     /*flex:1 0 200px;*/
     padding: 20px;
     background: rgb(190, 208, 102);
+
 }
 
 section:hover {
@@ -137,9 +131,9 @@ section:hover {
 }
 
 .my-work {
-    outline: blue dashed;
+    /*outline: blue dashed;*/
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
 
 
@@ -148,30 +142,30 @@ section:hover {
 /*my cards*/
 .my-work section {
     outline: yellow dashed;
-
     width: 40rem;
     display: inline-block;
-    margin: 2rem;
-    box-shadow: 5px 8px 40px 20px #13293d;
+    margin: 30px;
     border-radius: 10px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
+    height: 250px;
+    /*display: flex;
+    flex-wrap: wrap;*/
 
 }
 
-.horizeon-link {
+/*.horizeon-link {
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     margin-top: 1rem;
     flex: 2 0 0 2;
-}
+}*/
 
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 90%;
+    margin-right: 125px;
+    
 }
 
 #Horizeon {
@@ -179,4 +173,4 @@ section:hover {
     display: block;
 }
 
-.projects a {}
+
