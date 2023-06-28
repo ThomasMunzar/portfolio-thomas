@@ -173,4 +173,10 @@ section:hover {
     display: block;
 }
 
+.horizeon-image{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    
 
+}
