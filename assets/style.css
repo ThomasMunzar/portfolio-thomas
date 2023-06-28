@@ -101,7 +101,7 @@ p {
     display: flex;
     justify-content: center;
     margin-left: 200px;
-    
+
     
 }
 
@@ -214,4 +214,10 @@ section:hover {
     text-decoration: none;
     color: black;
 
+}
+#footer footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bolder;
 }
