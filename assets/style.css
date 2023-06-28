@@ -90,6 +90,7 @@ nav ul li a:hover::after {
     justify-content: space-between;
     width: 300px;
     margin-left: 500px;
+    margin-bottom: 30px;
 
 }
 
@@ -98,8 +99,10 @@ p {
     padding-bottom: 40px;
     padding-left: 200px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 200px;
+    
+    
 }
 
 /************************* My Work******************/
@@ -113,6 +116,7 @@ h2 {
     width: 200px;
     display: flex;
     justify-content: center;
+    
 }
 
 section {
@@ -123,8 +127,8 @@ section {
     font-weight: bold;
     padding: 20px;
     background: rgb(190, 208, 102);
-
 }
+
 
 section:hover {
     background-color: hotpink;
@@ -140,7 +144,6 @@ section:hover {
 
 /*my cards*/
 .my-work section {
-    outline: yellow dashed;
     width: 40rem;
     display: inline-block;
     margin: 30px;
@@ -165,20 +168,34 @@ section:hover {
     width: 100%;
     display: block;
 }
-
+#Horizeon header{
+    text-decoration:none;
+    color: black;
+    margin-bottom: 2px;
+}
 #horizeon-image .horizeon-image {
     display: flex;
     justify-content: center;
     width: 300px;
+}
 
 
+#pre-work-image .pre-work-image{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+#pre-work header{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2px;
 }
 
 #contact {
     padding: 20px;
     text-align: center;
     background-color: white;
-    border: yellow dashed;
+
 }
 
 #contact-link ul {
