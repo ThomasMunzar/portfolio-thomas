@@ -189,6 +189,12 @@ section:hover {
     color: black;
     margin-bottom: 2px;
 }
+
+#fuelLocatorImage .fuelImage {
+    display:flex;
+    justify-content: center;
+    width: 200px;
+}
 /*****************************************Contant me section*********************************/
 #contact {
     padding: 20px;
